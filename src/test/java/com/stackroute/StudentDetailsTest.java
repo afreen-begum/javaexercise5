@@ -46,10 +46,9 @@ import static org.junit.Assert.*;
 
             // After Sorting
 
-            String expected="[Student{id=5, name='Ayesha', age=37}, Student{id=2, name='weety', age=24}, Student{id=3, name='Reshma', age=23}, Student{id=6, name='Amaya', age=22}, Student{id=1, name='Afreen', age=21}, Student{id=4, name='Afreen', age=20}]";
+            String expected="[Student{id=5, name='Ayesha', age=34}, Student{id=2, name='Sweety', age=24}, Student{id=3, name='Reshma', age=23}, Student{id=6, name='Amaya', age=22}, Student{id=1, name='Afreen', age=21}, Student{id=4, name='Afreen', age=20}]";
             assertEquals(expected, students.toString());
 
 
         }
     }
-}
